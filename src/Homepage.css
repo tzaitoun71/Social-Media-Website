@@ -1,0 +1,53 @@
+.homepage {
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.homepage_nav {
+    flex: 0.2;
+    border-right: 1px solid #332E30;
+}
+
+.homepage_timeline {
+    flex: 0.8
+}
+
+.homepage__authorizationButton {
+    position: fixed;
+    bottom: 3px;
+}
+
+.homepage__authorization {
+    display: flex;
+    flex-direction: column;
+}
+
+.homepage__signupModal {
+    display: flex;
+    flex-direction: column;
+}
+
+.homepage__signinModal {
+    display: flex;
+    flex-direction: column;
+}
+
+.Upload {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.MuiInputBase-root input {
+    color: white;
+}
+
+.MuiInputBase-root input::placeholder {
+    color: white;
+    opacity: 0.8;
+}
+
+.MuiInputBase-root:hover::before {
+    border-color: white !important;
+}
+
